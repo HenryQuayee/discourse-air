@@ -236,8 +236,13 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    background: url(https://i.ibb.co/GCcS8Zw/Abstract-futuristic-Molecules-technology-with-polygonal-shapes-on-dark-blue-background-Illustration.jpg); 
+    height: 100vh;
+    width: 100vw;
+    background: url(https://i.ibb.co/GCcS8Zw/Abstract-futuristic-Molecules-technology-with-polygonal-shapes-on-dark-blue-background-Illustration.jpg) no-repeat center center fixed; 
     background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
     clip-path: unset;
   }
 }
